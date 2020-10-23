@@ -6,12 +6,12 @@
 
     <groupId>org.keycloak.extensions</groupId>
     <artifactId>keycloak-discord-parent</artifactId>
-    <version>0.3.1</version>
+    <version>0.3.2-SNAPSHOT</version>
     <packaging>pom</packaging>
 
     <scm>
         <developerConnection>scm:git:git@github.com:mpawlowski/keycloak-discord.git</developerConnection>
-      <tag>keycloak-discord-parent-0.3.1</tag>
+      <tag>HEAD</tag>
   </scm>
 
     <properties>

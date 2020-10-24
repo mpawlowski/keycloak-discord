@@ -17,7 +17,6 @@
 
 package org.keycloak.social.discord;
 
-import org.keycloak.broker.oidc.OAuth2IdentityProviderConfig;
 import org.keycloak.broker.provider.AbstractIdentityProviderFactory;
 import org.keycloak.broker.social.SocialIdentityProviderFactory;
 import org.keycloak.models.IdentityProviderModel;
@@ -30,6 +29,9 @@ public class DiscordIdentityProviderFactory extends AbstractIdentityProviderFact
         implements SocialIdentityProviderFactory<DiscordIdentityProvider> {
 
     public static final String PROVIDER_ID = "discord";
+
+    public DiscordIdentityProviderFactory() {
+    }
 
     @Override
     public String getName() {
